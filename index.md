@@ -1,5 +1,5 @@
 ---
 layout: home
-title: "Minima"
+title: "My awesome site"
 ---
 
