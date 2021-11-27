@@ -4,7 +4,7 @@
 remote_theme: jekyll/minima@v2.5.1
 
 minima:
-    skin: solarized
+    skin: dark
 
 plugins:
   - minima
