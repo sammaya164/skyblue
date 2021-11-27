@@ -1,10 +1,10 @@
-theme: minima
+# theme: minima
 # theme: jekyll-theme-cayman
 
-#remote_theme: jekyll/minima@v2.5.1
+remote_theme: jekyll/minima@v2.5.1
 
-# minima:
-#     skin: classic
+minima:
+    skin: solarized
 
 plugins:
   - minima
