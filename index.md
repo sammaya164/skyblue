@@ -1,4 +1,1 @@
-//---
-//title: "My awesome site"
-//---
 
