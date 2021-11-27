@@ -3,6 +3,9 @@
 remote_theme: jekyll/minima
 lang: ja
 
+minima:
+    skin: dark
+
 plugins:
   - minima
   - jekyll-seo-tag
