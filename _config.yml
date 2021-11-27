@@ -1,7 +1,7 @@
 # theme: minima
 # theme: jekyll-theme-cayman
+
 remote_theme: jekyll/minima@2.5.1
-lang: ja
 
 minima:
     skin: classic
