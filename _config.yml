@@ -5,7 +5,7 @@
 
 lang: ja
 
-plugins:
-  - minima
-  - jekyll-seo-tag
+# plugins:
+ # - minima
+ # - jekyll-seo-tag
   
