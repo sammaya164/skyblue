@@ -8,5 +8,5 @@ minima:
 
 plugins:
   - minima
-  
+  - jekyll-seo-tag
   
