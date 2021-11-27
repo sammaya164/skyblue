@@ -1,10 +1,10 @@
 # theme: minima
 # theme: jekyll-theme-cayman
 
-remote_theme: jekyll/minima@2.5.1
+remote_theme: jekyll/minima
 
-minima:
-    skin: classic
+# minima:
+#     skin: classic
 
 plugins:
   - minima
