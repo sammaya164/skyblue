@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "最初の記事"
 ---
 
