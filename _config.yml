@@ -5,7 +5,7 @@ baseurl: /windows-95-test
 # variables
 name: "windows-95テーマのテスト"
 description: Your description here
-google_verification: google56b783ceb99f45cf # null
+google_verification: null
 
 
 # File management
