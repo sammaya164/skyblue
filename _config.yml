@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
 url: #Your url here
-baseurl: /project
+baseurl: /windows-95-test
 
 # variables
 name: Your Site Name
