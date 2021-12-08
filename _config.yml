@@ -1,10 +1,10 @@
 permalink: /:year:month:day/:title
 url: #Your url here
-baseurl: /windows-95-test
+baseurl: /skyblue
 
 # variables
-name: "windows-95テーマのテスト"
-description: Your description here
+name: "空色と水色"
+description: "言葉のブログ"
 google_verification: null
 
 
