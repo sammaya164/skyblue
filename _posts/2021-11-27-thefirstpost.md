@@ -1,6 +1,7 @@
 ---
 layout: default
 tags: "テスト"
+tag: "テスト"
 title: "最初の記事"
 ---
 
