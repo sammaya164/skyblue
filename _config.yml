@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
 url: #Your url here
-baseurl: /skyblue
+baseurl: /skyblueu
 
 # variables
 name: "空色と水色"
