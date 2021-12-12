@@ -1,5 +1,5 @@
 ---
-layout: me
+layout: default
 title: me
 ---
 
