@@ -1,5 +1,5 @@
 ---
-layout: me
+layout: post
 title: About
 ---
 
