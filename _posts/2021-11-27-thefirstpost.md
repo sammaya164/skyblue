@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 tags: "テスト"
 title: "最初の記事"
 ---
