@@ -2,6 +2,5 @@
 layout: home
 ---
 
-pp
+ppp
 
-[data]({% link: '/_archives/archivedata.md' %})
