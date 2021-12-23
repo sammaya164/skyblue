@@ -25,3 +25,16 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     disable : true
+
+plugins:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: [tag]
+  layout: 'tag'
+  permalinks:
+    year: '/archives/year/:year/'
+    month: '/archives/month/:year:month/'
+    day: '/archives/month/:year:month:day/'
+    tag: '/archives/tag/:name/'
+    category: '/archives/category/:name/'
