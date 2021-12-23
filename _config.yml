@@ -30,7 +30,8 @@ plugins:
   - jekyll-archives
 
 jekyll-archives:
-  enabled: [tag]
+  enabled:
+    - tags
   layout: 'tag'
   permalinks:
     year: '/archives/year/:year/'
