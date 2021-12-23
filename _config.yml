@@ -26,16 +26,8 @@ kramdown:
   syntax_highlighter_opts:
     disable : true
 
-plugins:
-  - jekyll-archives
-
-jekyll-archives:
-  enabled:
-    - tags
-  layout: 'tag'
-  permalinks:
-    year: '/archives/year/:year/'
-    month: '/archives/month/:year:month/'
-    day: '/archives/month/:year:month:day/'
-    tag: '/archives/tag/:name/'
-    category: '/archives/category/:name/'
+# Archives
+collections:
+  archives:
+    output: true
+    permalink: /archives/:path/
