@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+    {% if page.title %}<link rel="stylesheet" type="text/css" href="{{ "/assets/css/002.css" | relative_url }}"><!-- explorer unfocused -->
+    {% else %}<link rel="stylesheet" type="text/css" href="{{ "/assets/css/001.css" | relative_url }}"><!-- explorer focused -->
+    {% endif %}
+    {% include head.html %}
+</head>
+<body>
+    <!-- explorer start -->
+    <div class="wrapper"> 
+        {% include explorer_head.html %}
+        {% include explorer_tree.html %}
+        <!-- explorer_files start -->
+        <div class="post_list">
+            {% if page.tag %}<ul>
+                {% for post in site.tags[page.tag] %}<li><a href="{{ post.url | relative_url }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" />{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>{% else %}<ul>
+                {% for post in site.posts %}<li><a href="{{ post.url | relative_url }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" />{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>{% endif %}
+        </div>
+        <!-- explorer-files end -->
+        {% include explorer_foot.html %}
+    </div>
+    <!-- explorer end -->
+    {{ content }}
+    <script src="{{ "/assets/js/001.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/002.js" | relative_url }}"></script>
+    {% include footer.html %}
+</body>
+</html>
