@@ -14,13 +14,10 @@
         {% include explorer_tree.html %}
         <!-- explorer_files start -->
         <div class="post_list">
-            {% if page.tag %}<ul>
-                {% for post in site.tags[page.tag] %}<li><a href="{{ post.url | relative_url }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" />{{ post.title }}</a></li>
+            <ul>
+                {% for post in site.tags[page.title] %}<li><a href="{{ post.url | relative_url }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" />{{ post.title }}</a></li>
                 {% endfor %}
-            </ul>{% else %}<ul>
-                {% for post in site.posts %}<li><a href="{{ post.url | relative_url }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" />{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>{% endif %}
+            </ul>
         </div>
         <!-- explorer-files end -->
         {% include explorer_foot.html %}
