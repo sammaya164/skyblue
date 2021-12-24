@@ -1,7 +1,7 @@
 - title: <u>A</u>bout
-    url: about.html
+  url: about.html
 - title: <u>G</u>itHub
-    url: http://github.com/sammaya164/skyblue
+  url: http://github.com/sammaya164/skyblue
 # - title: <u>T</u>witter
 #     url: http://twitter.com/
 # - title: <u>S</u>oundcloud
