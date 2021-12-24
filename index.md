@@ -2,5 +2,9 @@
 layout: home
 ---
 
-p
+{{ page.date }}
+
+{{ page.title }}
+
+oo
 
