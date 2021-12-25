@@ -10,7 +10,11 @@ para:
 
 ---
 
-{ page.para }
+{% asign: p1, 22 %}
 
-os4
+{{ page.para }}
+
+{{ p1 }}
+
+os5
 
