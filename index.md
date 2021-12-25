@@ -11,7 +11,7 @@ para:
 ---
 
 
-{{ page.para | find: name, 'test1' }}
+{{ page.para | find: "name", "test1" }}
 
 
 os5
