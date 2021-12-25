@@ -11,8 +11,8 @@ para:
 ---
 
 
-{{ page.para | find: "name", "test2" }}
+{{ page.para | first }}
 
 
-os6
+os7
 
