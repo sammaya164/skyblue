@@ -10,7 +10,7 @@ layout: home
 {{ site.taglist[テスト2] }}2
 
 
-{{ site.taglist[テスト2] | first }}3
+{{ site.taglist[tag1] }}3
 
 os356
 
