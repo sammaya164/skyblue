@@ -1,0 +1,15 @@
+<!-- file_window start -->
+    <div class="content">
+        <div class="post_title">
+	    <img src="{{ "/assets/img/file.png" | relative_url }}" />
+	    <h1>{{ page.title }}</h1>
+	    <a href="{{"/" | relative_url}}"><div class="btn"><span class="fa fa-times"></span></div></a>
+	    <div class="btn btn_max"><span class="fa fa-window-maximize"></span></div>
+	    <div class="btn"><span class="fa fa-window-minimize"></span></div>
+        </div>
+        <ul class="topbar">
+	    <li>{{ page.date | date: '%B %-d, %Y' }}</li>
+        </ul>
+        <div class="post_content">{{ content }}</div>
+    </div>
+    <!-- file_window end -->

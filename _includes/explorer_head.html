@@ -1,0 +1,11 @@
+<!-- explorer_head start -->
+        <div class="default_title">
+            <img src="{{ "/assets/img/mycomputer.png" | relative_url }}" />
+            {% if page.tag %}<h1>{{ page.tag }}</h1>
+            {% else %}<h1>{{ site.title }}</h1>{% endif %}
+        </div>
+        <ul class="topbar">
+            {% for link in site.data.links %}
+            <a href="{{ link.url | relative_url }}"><li>{{ link.title }}</li></a>
+        {% endfor %}</ul>
+        <!-- explorer_head end -->
