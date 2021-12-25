@@ -2,15 +2,13 @@
 layout: home
 ---
 
-{{ site.taglist[テスト][0] }}0
+0. {{ site.taglist }}
 
+1. {{ site.taglist | first }}
 
-{{ site.taglist[テスト2] | first }}1
+2. {{ site.taglist[0] }}
 
-{{ site.taglist[テスト2] }}2
+3. {{ site.taglist[1] }}
 
-
-{{ site.taglist[tag1] }}3
-
-os356
+os3
 
