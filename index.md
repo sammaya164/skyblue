@@ -2,9 +2,8 @@
 layout: home
 ---
 
-{{ page.date }}
+{{ site.taglist[テスト] }}
 
-{{ page.title }}
 
 os
 
