@@ -2,14 +2,11 @@
 layout: home
 ---
 
-{{ site.taglist[テスト] }}
+{{ site.taglist[テスト].link }}
 
 
-{{ site.taglist[テスト2] }}
+{{ site.taglist[テスト2].link }}
 
 
-{{ site.taglist[0] }}
-
-
-os2
+os3
 
