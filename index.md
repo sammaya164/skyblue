@@ -6,5 +6,5 @@ layout: home
 
 {{ page.title }}
 
-oo
+os
 
