@@ -5,5 +5,11 @@ layout: home
 {{ site.taglist[テスト] }}
 
 
-os
+{{ site.taglist[テスト2] }}
+
+
+{{ site.taglist[0] }}
+
+
+os2
 
