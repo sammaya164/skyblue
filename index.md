@@ -1,14 +1,16 @@
 ---
 layout: home
+para:
+  -
+    name: test1
+    value: val1
+  -
+    name: test2
+    value: val2
+
 ---
 
-0. {{ site.taglist }}
+{ page.para }
 
-1. {{ site.taglist | first }}
-
-2. {{ site.taglist[0] }}
-
-3. {{ site.taglist[1] }}
-
-os3
+os4
 
