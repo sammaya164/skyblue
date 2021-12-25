@@ -10,17 +10,17 @@
 <body>
     <!-- explorer start -->
     <div class="wrapper"> 
-        {% include explorer_head.html %}
+        {% include explorer_header.html %}
         {% include explorer_tree.html %}
         <!-- explorer_files start -->
         <div class="post_list">
             <ul>
-                {% for post in site.tags[page.t] %}<li><a href="{{ post.url | relative_url }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" />{{ post.title }}</a></li>
+                {% for post in site.tags[page.tag] %}<li><a href="{{ post.url | relative_url }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" />{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
         </div>
         <!-- explorer-files end -->
-        {% include explorer_foot.html %}
+        {% include explorer_footer.html %}
     </div>
     <!-- explorer end -->
     {{ content }}
