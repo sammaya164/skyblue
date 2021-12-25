@@ -10,7 +10,6 @@ para:
 
 ---
 
-{% asign: p1, 22 %}
 
 {{ page.para }}
 
