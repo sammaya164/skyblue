@@ -3,7 +3,7 @@ permalink: /:year:month:day/:title
 remote_theme: sammaya164/windows-95-sp1
 lang: ja
 
-url: #Your url here
+url: # https://www.example.com
 baseurl: /skyblue
 
 # variables
@@ -11,8 +11,12 @@ title: "空色"
 google_verification: null
 
 # File management
-include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
+include:
+ - .htaccess
+ - _pages
+exclude:
+ - README.md
+ - LICENSE
 
 # Sass
 sass:
@@ -26,8 +30,21 @@ kramdown:
   syntax_highlighter_opts:
     disable : true
 
-# Archives
-collections:
-  archives:
-    output: true
-    permalink: /archives/:path/
+# Header
+header:
+  - title: <u>A</u>bout
+    url: about.html
+  - title: <u>G</u>itHub
+    url: http://github.com/sammaya164/skyblue
+  # - title: <u>T</u>witter
+  #   url: http://twitter.com/
+  # - title: <u>S</u>oundcloud
+  #   url: http://soundcloud.com/
+
+# Tag list
+taglist:
+  - name: 'テスト'
+    link: tag1
+  - name: 'テスト2'
+    link: tag2
+
