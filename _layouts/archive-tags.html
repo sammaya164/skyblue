@@ -15,7 +15,7 @@
         <!-- explorer_files start -->
         <div class="post_list">
             <ul>
-                {% for post in site.tags[page.title] %}<li><a href="{{ post.url | relative_url }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" />{{ post.title }}</a></li>
+                {% for post in site.tags[page.t] %}<li><a href="{{ post.url | relative_url }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" />{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
         </div>
