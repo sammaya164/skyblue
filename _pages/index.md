@@ -3,5 +3,5 @@ layout: home
 permalink: /
 ---
 
-os6
+os7
 
