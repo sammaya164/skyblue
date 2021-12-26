@@ -3,7 +3,7 @@
             <li><a href="{{"/" | relative_url }}"><img src="{{ "/assets/img/disk.png" | relative_url }}" />(C:)</a>
                 <ul>
                     {% assign tags = site.tags | sort %}
-                    {% assign list = site.taglist | first %}
+                    {% assign list = site.taglist | where:'value',tag [0]%}
                     {% for tag in tags %}
                     <li><a href="{{ site.baseurl }}/tag/{{ list }}/">
                          <img src="{{ "/assets/img/folder.ico" | relative_url }}" />
