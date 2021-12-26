@@ -3,11 +3,11 @@
             <li><a href="{{"/" | relative_url }}"><img src="{{ "/assets/img/disk.png" | relative_url }}" />(C:)</a>
                 <ul>
                     {% assign tags = site.tags | sort %}
+                    {% assign list = site.taglist | first %}
                     {% for tag in tags %}
-                    {% assign link = site.taglist %}
-                    <li><a href="{{ site.baseurl }}/tag/">
+                    <li><a href="{{ site.baseurl }}/tag/{{ list }}/">
                          <img src="{{ "/assets/img/folder.ico" | relative_url }}" />
-{{ link[tag[0]] }};{{ tag[0] | replace:'-', ' ' }}</a></li>
+{{ list.name }};{{ tag[0] | replace:'-', ' ' }}</a></li>
                     {% endfor %}
                 </ul>
             </li>
