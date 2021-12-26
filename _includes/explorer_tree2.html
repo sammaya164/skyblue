@@ -3,9 +3,9 @@
             <li><a href="{{"/" | relative_url }}"><img src="{{ "/assets/img/disk.png" | relative_url }}" />(C:)</a>
                 <ul>
                     {% assign tags = site.tags | sort %}
-                    {% for tag in tags %}{% for tag2 in site.tree %}
+                    {% for tag in tags %}{% for tag2 in site.tree %}{% if tag2.tag == tag[0] %}
                     <li><a href="{{ tag2.url | relative_url }}"><img src="{{ "/assets/img/folder.ico" | relative_url }}">{{ tag[0] }}</a></li>
-                    {% endfor %}{% endfor %}
+                    {% endif %}{% endfor %}{% endfor %}
                 </ul>
             </li>
         </ul></div>
