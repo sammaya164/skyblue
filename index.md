@@ -11,9 +11,7 @@ para:
 ---
 
 
-{% assign para = page.para | where: "name", "test1" %}
 
-{{ para.name }}
 
-os9
+os0
 
