@@ -1,10 +1,6 @@
 ---
 layout: home
-
 ---
 
-
-
-
-os5
+os6
 
