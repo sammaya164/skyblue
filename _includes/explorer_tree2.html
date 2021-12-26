@@ -5,8 +5,8 @@
                     {% assign tags = site.tags | sort %}
                     {% for tag in tags %}
                     {% for list in site.taglist %}
-                    <li><a href="{{ site.baseurl }}/tag/"><img src="{{ "/assets/img/folder.ico" | relative_url }}">{{ list }}</a></li>
-                    {% end if %}
+                    <li><a href="{{ site.baseurl }}/tag/"><img src="{{ "/assets/img/folder.ico" | relative_url }}">{{ tag[0] }}</a></li>
+                    {% endfor %}
                     {% endfor %}
                 </ul>
             </li>
