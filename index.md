@@ -1,17 +1,10 @@
 ---
 layout: home
-para:
-  -
-    name: test1
-    value: val1
-  -
-    name: test2
-    value: val2
 
 ---
 
 
 
 
-os0
+os1
 
