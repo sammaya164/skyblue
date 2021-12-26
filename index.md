@@ -11,7 +11,7 @@ para:
 ---
 
 
-{% assign para = page.para | first %}
+{% assign para = page.para | where: "name", "test1" %}
 
 {{ para.name }}
 
