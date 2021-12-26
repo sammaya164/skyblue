@@ -11,9 +11,9 @@ para:
 ---
 
 
-{% assign para = page.para | first %}}
+{% assign para = page.para | first %}
 
-{{ para }}
+{{ para.name }}
 
-os7
+os8
 
