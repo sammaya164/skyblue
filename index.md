@@ -1,6 +1,7 @@
 ---
 layout: home
+permalink: /index/
 ---
 
-os4
+os5
 
