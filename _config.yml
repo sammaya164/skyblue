@@ -44,9 +44,11 @@ header:
 
 # Tag list
 taglist:
-  - name: "テスト"
-    value: "tag1"
-  - name: "テスト2"
-    value: "tag2"
+  -
+    name: tag1
+    value: "テスト"
+  -
+    name: tag2
+    value: "テスト2"
 
 
