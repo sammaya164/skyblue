@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
 
-# remote_theme: sammaya164/windows-95-sp1
+remote_theme: sammaya164/windows-95-sp1
 lang: ja
 
 url: # https://www.example.com
