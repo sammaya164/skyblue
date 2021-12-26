@@ -7,7 +7,7 @@
                     {% assign link = site.taglist %}
                     <li><a href="{{ site.baseurl }}/tag/">
                          <img src="{{ "/assets/img/folder.ico" | relative_url }}" />
-{{ link | first }};{{ tag[0] | replace:'-', ' ' }}</a></li>
+{{ link[tag[0]] }};{{ tag[0] | replace:'-', ' ' }}</a></li>
                     {% endfor %}
                 </ul>
             </li>
