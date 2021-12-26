@@ -7,9 +7,9 @@
                     {% for tag in tags %}
 
  {% assign list = site.taglist | where:'value',tag[0] %}
-                    <li><a href="{{ site.baseurl }}/tag/{{ list.name }}/">
+                    <li><a href="{{ site.baseurl }}/tag/{{ list }}/">
                          <img src="{{ "/assets/img/folder.ico" | relative_url }}" />
-{{ list.name }}</a></li>
+{{ list }}</a></li>
                     {% endfor %}
                 </ul>
             </li>
