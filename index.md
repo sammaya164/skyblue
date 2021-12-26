@@ -11,8 +11,9 @@ para:
 ---
 
 
-{{ page.para | first }}
+{% assign para = page.para | first %}}
 
+{{ para }}
 
 os7
 
