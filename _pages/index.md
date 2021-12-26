@@ -1,6 +1,6 @@
 ---
 layout: home
-permalink: /index/
+permalink: /
 ---
 
 os5
