@@ -42,11 +42,11 @@ header:
     # - title: <u>S</u>oundcloud
     #   url: http://soundcloud.com/
 
-# Tag list
-taglist:
-  - name: tag1
-    value: "テスト"
-  - name: tag2
-    value: "テスト2"
+# Tree
+tree:
+  - url: /tag/tag1/
+    tag: "テスト"
+  - url: /tag/tag2/
+    tag: "テスト2"
 
 
