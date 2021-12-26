@@ -4,7 +4,7 @@
                 <ul>
                     {% assign tags = site.tags | sort %}
                     {% for tag in tags %}{% for tag2 in site.tree %}
-                    <li><a href="{{ "/tag/tag1/" | relative_url }}"><img src="{{ "/assets/img/folder.ico" | relative_url }}">{{ tag2 }}</a></li>
+                    <li><a href="{{ tag2.url | relative_url }}"><img src="{{ "/assets/img/folder.ico" | relative_url }}">{{ tag[0] }}</a></li>
                     {% endfor %}{% endfor %}
                 </ul>
             </li>
