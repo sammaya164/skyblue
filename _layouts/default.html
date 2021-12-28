@@ -27,5 +27,7 @@
     <!-- explorer end -->
     {{ content }}
     {% include footer.html %}
+    <script src="{{ "/assets/js/001.js" | relative_url }}"></script>
+    {% if site.disable_markdown %}<script src="{{ "/assets/js/002.js" | relative_url }}"></script>{% endif %}
 </body>
 </html>
