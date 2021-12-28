@@ -46,5 +46,5 @@ header:
     #   url: http://soundcloud.com/
 
 # Memo_window
-disable_markdown: true
+disable_markdown: false
 
