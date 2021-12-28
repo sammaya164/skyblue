@@ -1,7 +1,5 @@
 ---
-layout: home
+layout: default
 permalink: /
 ---
-
-os1
 
