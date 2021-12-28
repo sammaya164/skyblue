@@ -45,6 +45,6 @@ header:
     # - title: <u>S</u>oundcloud
     #   url: http://soundcloud.com/
 
-# In memo_window
-enable_markdown: true
+# Memo_window
+disable_markdown: true
 
