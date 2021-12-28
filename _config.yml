@@ -7,21 +7,20 @@ url: # https://www.example.com
 baseurl: /skyblue
 
 # variables
-title: "空色"
+title: "空色と水色"
 google_verification: null
 
 # File management
 include:
  - .htaccess
- - _pages
 exclude:
  - README.md
  - LICENSE
 
 # Sass
 sass:
-  style: :compressed
   sass_dir: _sass
+  style: :compressed
 
 # Markdown
 markdown: kramdown
