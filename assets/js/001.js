@@ -5,7 +5,6 @@ var max = document.getElementsByClassName("btn")[1];
 var min = document.getElementsByClassName("btn")[2];
 
 function maximize () {
-alert('max');
 	var post = document.getElementsByClassName("content")[0];
 	var cont = document.getElementsByClassName("post_content")[0];
 	var wid = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName("body")[0].clientWidth;
