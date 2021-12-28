@@ -42,11 +42,4 @@ header:
     # - title: <u>S</u>oundcloud
     #   url: http://soundcloud.com/
 
-# Tree
-tree:
-  - url: /tag/tag1/
-    tag: "テスト"
-  - url: /tag/tag2/
-    tag: "テスト2"
-
 
