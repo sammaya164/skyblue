@@ -30,6 +30,10 @@ kramdown:
   syntax_highlighter_opts:
     disable : true
 
+#Plugins
+plugins:
+  - jemoji
+
 # Header
 header:
   links:
